@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Outchem</title>
+
+    <!-- firebase database -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+     <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css1/base.css">
+    <link rel="stylesheet" href="css1/vendor.css">
+    <link rel="stylesheet" href="css1/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js1/modernizr.js"></script>
+    <script src="js1/pace.min.js"></script>
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="load"></div>
+    
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- ***** Top Header Area ***** -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" data-toggle="tooltip" data-placement="bottom" title="marketing@outchem.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: marketing@outchem.com</span></a>
+                                <a href="tel:+91 8779938494" target="_blank" data-toggle="tooltip" data-placement="bottom" title="+91 8779938494"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 8779938494</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                                <!-- Language Dropdown -->
+                                <!-- <div class="language-dropdown">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">USA</a>
+                                            <a class="dropdown-item" href="#">UK</a>
+                                            <a class="dropdown-item" href="#">Bangla</a>
+                                            <a class="dropdown-item" href="#">Hindi</a>
+                                            <a class="dropdown-item" href="#">Spanish</a>
+                                            <a class="dropdown-item" href="#">Latin</a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- Login -->
+                                <div class="login">
+                                    <a href="https://m.facebook.com/outchem" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> <span>Facebook</span></a>
+                                </div>
+                                <!-- Cart -->
+                                <div class="cart">
+                                    <a href="https://www.instagram.com/outchem2017?r=nametag" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i> <span>instagram </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***** Navbar Area ***** -->
+        <div class="alazea-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                        <!-- Nav Brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/main-logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Navbar Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#Event">Events</a>
+                                        <!-- <ul class="dropdown">
+                                            
+                                            <li><a href="shop.html">Shop</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                           
+                                        </ul> -->
+                                    </li>
+                                    <li><a href="#product">Products</a></li>
+                                    <li><a href="#testimonialas">Testimonial</a></li>
+                                    <li><a href="#contact">Contact</a>
+                                        <!-- <ul class="dropdown">
+                                            <li><a href="#">Facebook</a></li>
+                                            <li><a href="#">instagram</a></li>
+                                            <li><a href="#">Twitter</a></li>
+                                            <li><a href="#">Whatsapp</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=XQqzos3KKDs&feature=youtu.be" target="">YouTube</a></li>
+                                        </ul> -->
+                                    </li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <!-- <div id="searchIcon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div> -->
+
+                            </div>
+                            <!-- Navbar End -->
+                        </div>
+                    </nav>
+
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                            <button type="submit" class="d-none"></button>
+                        </form>
+                        
+                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-post-slides owl-carousel">
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/pic4.jpg);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <h2>We augment your plan and outsource your worries, to make your dream clinic a reality.</h2>
+                                <!-- <p>We augment your plan and outsource your worries, to make your dream clinic a reality</p> -->
+                                <div class="welcome-btn-group">
+                                    <a href="#registration" class=" alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#contact" class=" alazea-btn active">CONTACT US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- social medaia link -->
+                <ul class="home-social">
+                    <li>
+                        <a href="https://m.facebook.com/outchem" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/outchem2017?s=08" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/outchem2017?r=nametag" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+                    </li>
+                    <li>
+                        <a href="tel:+91 879942985"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/fp7wp" target="_blank" ><i class="fa fa-map-marker" aria-hidden="true"></i><span>Map</span></a>
+                    </li>
+                </ul> 
+            </div>
+
+            <!-- social medaia link -->
+            
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/pic2.jpeg);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <h2>Outchem dental... <br> Loves to see you smiling</h2>
+                                <!-- <p>Loves to see you smile</p> -->
+                                <div class="welcome-btn-group">
+                                    <a href="#registration" class=" alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#contact" class=" alazea-btn active">CONTACT US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- social media link -->
+                <ul class="home-social">
+                    <li>
+                        <a href="https://m.facebook.com/outchem" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/outchem2017?s=08" target="_blank"><i class="fa fa-twitter" target="_blank" aria-hidden="true"></i><span>Twiiter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/outchem2017?r=nametag" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail/u/1/#inbox"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+                    </li>
+                    <li>
+                        <a href="tel:+91 879942985"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                    </li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/fp7wp" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Map</span></a>
+                    </li>
+                </ul> 
+            </div>
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/header.png);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <!-- <h2>We augment your plan and outsource your worries, to make your dream clinic a reality.</h2> -->
+                                <!-- <p>We augment your plan and outsource your worries, to make your dream clinic a reality</p> -->
+                                <div class="welcome-btn-group">
+                                    <a href="#registration" class=" alazea-btn mr-30">GET STARTED</a>
+                                    <a href="#contact" class=" alazea-btn active">CONTACT US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- social medaia link -->
+                <ul class="home-social">
+                    <li>
+                        <a href="https://m.facebook.com/outchem" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/outchem2017?s=08" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/outchem2017?r=nametag" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+                    </li>
+                    <li>
+                        <a href="tel:+91 879942985"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/fp7wp" target="_blank" ><i class="fa fa-map-marker" aria-hidden="true"></i><span>Map</span></a>
+                    </li>
+                </ul> 
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+
+    <!-- ##### Testimonial Area Start ##### -->
+    <section id="testimonialas" class="testimonial-area section-padding-100">
+            <div class="col-full text-center ">
+                    <h2 class="exp">Expression of Appreciation</h2>
+                </div>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-slides owl-carousel">
+
+                         <!-- Single Testimonial Slide -->
+                         <div class="single-testimonial-slide">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <div class="testimonial-thumb">
+                                            <img src="img/bg-img/doctor3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="testimonial-content">
+                                            <!-- Section Heading -->
+                                            <div class="section-heading">
+                                                <h2>TESTIMONIAL</h2>
+                                                <p>"What our esteemed Doctors think about us"</p>
+                                            </div>
+                                            <p>“It has been a great experience to purchase a new DC Xray machine from Outchem, they have made purchase and installation a cake walk . They are prompt in responding not any calls and have a dedicated contact no for the same . their inputs on quality and patient safety is also commendable. We are also excited to know about their A to Z clinic planning services. ”</p>
+                                            <div class="testimonial-author-info">
+                                                <h6>Dr. Sana Mulla</h6>
+                                                <p>Lead Dentist Laxmi Face & Dental Clinic </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                       
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/abhijit.jpeg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-content">
+                                        <!-- Section Heading -->
+                                        <div class="section-heading">
+                                            <h2>TESTIMONIAL</h2>
+                                            <p>"What our esteemed Doctors think about us"</p>
+                                        </div>
+                                        <p>“I came across Outchem.com through a seminar at World Dental Show, my first experience with them was really nice as they provided me the Basic Life Support Kit which includes every basic thing a doctor would need in case of emergency, very easy to handle and nicely packed. 
+                                            <br>
+                                            Based on the above experience I purchased an Alerio DC Xray from them which was delivered to me on time.
+                                            Easy communication and quick service is the reason I would look forward to Outchem and wish Outchem to come out with flying colors. ”</p>
+                                        <div class="testimonial-author-info">
+                                            <h6>Dr. Abhijeet Kulkarni</h6>
+                                            <p>Empire Dental clinic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/doct4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-content">
+                                        <!-- Section Heading -->
+                                        <div class="section-heading">
+                                            <h2>TESTIMONIAL</h2>
+                                            <p>"What our esteemed Doctors think about us"</p>
+                                        </div>
+                                        <p>“My experience with Outchem has been great. Their various options , coupled with honest reviews and good pricing has made them a preferable dental equipment dealers for my clinic. I strongly suggest them as a valued equipment provider for dental clinics. <br> I am also aware about their A To Z dental clinic planner service, I feel it is a boon for young Dentist wanting to set up a clinic. Their complete planning and execution protocol as explained by them to me , address most of the challenges faced by young dentist. They definitely fill the much needed vacuum , in such kind of clinic planning providers in the market ”</p>
+                                        <div class="testimonial-author-info">
+                                            <h6>Dr. Vineet Avadhani</h6>
+                                            <p>Joint Director, LMSDC, Koperkhairane </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Single Testimonial Slide -->
+                         <div class="single-testimonial-slide">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/doctor5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-content">
+                                        <!-- Section Heading -->
+                                        <div class="section-heading">
+                                            <h2>TESTIMONIAL</h2>
+                                            <p>"What our esteemed Doctors think about us"</p>
+                                        </div>
+                                        <p>“Being a lead dentist I have to take care of various items- from materials to new dental equipment. 
+                                            Outchem completes my search and helps me in managing the clinic by providing various dental equipment and materials in shortest possible time at a very competitive rates. 
+                                            I highly recommend my fellow doctors to use the services of Outchem including Clinic Setup and Planning service, especially to young dentist for setting up their own new clinic. . ”</p>
+                                        <div class="testimonial-author-info">
+                                            <h6>Dr Sonal Agarwal</h6>
+                                            <p>Laxmi Face &amp; Multispeciality Dental Clinic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Single Testimonial Slide -->
+                         <div class="single-testimonial-slide">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <div class="testimonial-thumb">
+                                            <img src="img/bg-img/doct1.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="testimonial-content">
+                                            <!-- Section Heading -->
+                                            <div class="section-heading">
+                                                <h2>TESTIMONIAL</h2>
+                                                <p>"What our esteemed Doctors think about us"</p>
+                                            </div>
+                                            <p>“Outchem.com have been really a kind organisation and we have dealt with them for RVG sensors. They are professional and would surely recommend them for their ontime service and support. ”</p>
+                                            <div class="testimonial-author-info">
+                                                <h6>Dr. Ajit Jha</h6>
+                                                <p>Dentistra HealthCare Pvt Ltd</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonial Area End ##### -->
+   
+
+
+
+
+   
+    <!-- about
+    ================================================== -->
+    
+  
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">We Are Outchem</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p class="descs">
+                    Outchem India is an outsourcing platform for the Healthcare and Pharma industry. We have a network of Hospitals / Clinics / Labs as well as Real Estate / Infrastructure  all over India. We help such Healthcare organizations in the procurement of medical devices and other any other related requirements. 
+                </p>
+                <p class="descs">
+                    Outchem.com deals in Dental products, materials, instruments and equipment at a wide range of brands with better quality products at their best prices. Outchem.com also deals in Certification and training programme and aims to provide clear visibility, availability and freshness of dental materials used in the country.
+                </p>
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="about_container">
+                <div class="about_row1">
+                    <div class="col-lg-6">
+                        <div class="row dents"><h1>Dental</h1></div>        
+                        <div class="row about-stats about-dent stats block-1-2 block-m-1-2 block-mob-full" data-aos="fade-up">
+                            <div class="col-block stats__col ">
+                                <div class="stats__count"> <span class="counter">2403</span></div>
+                                <h5>Doctors</h5>
+                            </div>
+                            <div class="col-block stats__col">
+                                <div class="stats__count"> <span class="counter">18</span></div>
+                                <h5>cities</h5>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    
+                    <div class="col-lg-6">
+                        <div class="row dent"><h1>Pharmaceutical</h1></div>
+                        <div class="row about-stats stats block-1-2 block-m-1-2 block-mob-full" data-aos="fade-up">
+                            <div class="col-block stats__col">
+                                <div class="stats__count"> <span class="counter">2781</span></div>
+                                <h5>clients</h5>
+                            </div>
+                            <div class="col-block stats__col">
+                                <div class="stats__count"> <span class="counter">72</span></div>
+                                <h5>cities</h5> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end about-stats -->
+       
+            <div class="  about-stats stats block-4-1 block-m-1-2 block-mob-full text-align: center" data-aos="fade-up">
+                <div class=" stats__col ">
+                    <h1 style="color: white">Certification and training programs</h1>
+                    <div class="stats__count"> <span class="counter">2</span></div>
+                </div>
+            </div>
+       
+        
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+    <!-- new about -->
+    <!-- <section id='about' class="s-about">
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up" >
+            <div class=" newdent"><h1>Dental</h1>  
+                 </div>
+                <div class="col-block stats__col ">
+                    <div class="stats__count">410</div>
+                    <h5>Buyer</h5>
+                </div>
+                <div class="col-block stats__col">
+                    <div class="stats__count">2371</div>
+                    <h5>contractors</h5>
+                </div>
+        </div>
+
+    </section> -->
+
+    <!-- new work -->
+    
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Services Offered</h3>
+                    <h1 class="display-2 display-2--light">We love what we do, check out some of our services</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/service12 (1).jpeg" class="thumb-link" title="View More" data-size="1050x700">
+                                    <img src="images/portfolio/service1.jpeg" 
+                                         srcset="images/portfolio/service1.jpeg 1x, images/portfolio/service13.jpeg 2x" alt="">
+                                </a>
+                                <div class="bottom-left">
+                                        <h1 class="item-folio__title">Clinic Setup and Planning</h1></div>
+                            </div>
+    
+                            <!-- <div class="item-folio__text">
+                                <h1 class="item-folio__title">
+                                    Clinic Setup and Planning 
+                                </h1>
+                                
+                            </div> -->
+    
+                            <a href="#contact" class="item-folio__project-link" title="Clinic Setup and Planning ">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p p style="color: white">Outchem intends to become bridge for a dentist who has just passed out and dreaming of setting up his or her own clinic. With vast experience and network of dental dealers, Outchem is capable of setting up fo a clinic in minimum time frame at economical budget with saving time and money for young dentist. </p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/dental special1.jpg" class="thumb-link" title="View More" data-size="1050x700">
+                                    <img src="images/portfolio/dental special.jpg" 
+                                         srcset="images/portfolio/dental special.jpg 1x, images/portfolio/dental special.jpg 2x" alt="">
+                                </a>
+                                <div class="bottom-left">
+                                        <h1 class="item-folio__title">Dental Products</h1></div>
+                            </div>
+    
+                            <!-- <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Dental Products
+                                </h3>
+                                
+                            </div> -->
+    
+                            <a href="#" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p style="color: white">You can bank on us for dental products at affordable price, reliable service and time bound deliveries. As Outchem is an one-stop solution for every dental product. </p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <!-- <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="images/portfolio/the-beetle.jpg"
+                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    The Beetle
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Development
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p >Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>  -->
+                    
+                    <!-- end masonry__brick -->
+    
+                    <!-- <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                    <img src="images/portfolio/grow-green.jpg" 
+                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Grow Green
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>  -->
+                   
+                    <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/certification1.jpg" class="thumb-link" title="View More" data-size="1050x700">
+                                    <img src="images/portfolio/certification.jpg" 
+                                         srcset="images/portfolio/certification.jpg 1x, images/portfolio/certification.jpg 2x" alt="">
+                                </a>
+                                <div class="bottom-left">
+                                        <h1 class="item-folio__title1">Certification Program and Seminar</h1></div>
+                            </div>
+    
+                            <!-- <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                        Certification Program and Seminar
+                                </h3>
+                                
+                            </div> -->
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p style="color: white">Thriving for constant updation of new developments happening in the dental fields through Seminars, Continuous Medical Education (CME), Programs, etc. 
+                                    </p>
+                            </div>
+    
+                        </div>
+                    </div> 
+                    <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/inside thought.jpg" class="thumb-link" title="View More" data-size="1050x700">
+                                    <img src="images/portfolio/thought-2123971_1920 - Copy.jpg"
+                                         srcset="images/portfolio/thought-2123971_1920 - Copy.jpg 1x, images/portfolio/thought-2123971_1920 - Copy.jpg 2x" alt="">
+                                </a>
+                                <div class="bottom-left">
+                                        <h1 class="item-folio__title">Special Products</h1></div>
+                            </div>
+                            <!-- <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Special Products
+                                </h3>
+                                
+                            </div> -->
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p style="color: white" >Outchem intends to bring in latest and updated dental products for the benefit of doctors and patients in general.  </p>
+                            </div>
+    
+                        </div>
+                    </div> 
+                    <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- ##### Product Area Start ##### -->
+    <section id="product" class="new-arrivals-products-area bg-gray section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+                    <div class="section-heading text-center">
+                        <h2>NEW ARRIVALS</h2>
+                        <p>We have the latest products, it must be exciting for you</p>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="row clients-outer" data-aos="fade-up">
+                <div class="col-full">
+                    <div class="clients">
+                        
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+                               
+                                <div class="product-img">
+                                    <a href="#"><img src="img/products/Air-Rotor with LED.jpeg" alt=""></a>
+                                    
+                                    <div class="product-tag sale-tag">
+                                        <a href="#">New</a>
+                                    </div>
+                                    <div class="product-meta d-flex">
+                                        <a href="https://m.facebook.com/outchem" class="wishlist-btn"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="add-to-cart-btn">Handpieces</a>
+                                        <a href="tel:+91 8779938494" class="compare-btn"><i class="fa fa-phone"></i></a>
+                                    </div>
+                                </div>
+                              
+                                <div class="product-info mt-15 text-center">
+                                    <a href=""></a>
+                                        <p>Handpieces</p>
+                                    </a>
+                                    <!-- <h6>$10.99</h6> -->
+                                </div>
+                            </div>
+                            <div class="btnContainer1">
+                                <button id="btnShowProducts1" onclick="showProducts1()">Show More</button>
+                                <button id="btnHideProducts1" onclick="hideProducts1()">Show Less</button>
+                            </div>
+                            <div id="products1">
+                                    <div class="product-imgs">
+                                        <img data-src="img/products/Air-Rotor with LED.jpeg" alt="">
+                                        <p>
+                                            Air-Rotor with LED <br>
+                                            ₹ 3200 & above brands available
+                                        </p>
+                                    </div>
+                                    <div class="product-imgs">
+                                        <img data-src="img/products/Air-Rotor without LED.jpeg" alt="">
+                                        <p>
+                                            Air-Rotor without LED <br>
+                                            ₹ 1800 & above brands available
+                                        </p>
+                                    </div>
+                                    <div class="product-imgs">
+                                        <img data-src="img/products/Contra handpiece.jpeg" alt="">
+                                        <p>
+                                            Contra handpiece <br>
+                                            ₹ 1800 & above brands available
+                                        </p>
+                                    </div>
+                                    <div class="product-imgs">
+                                        <img data-src="img/products/Straight handpiece.jpeg" alt="">
+                                        <p>
+                                            Straight handpiece <br>
+                                            ₹ 1800 & above brands available
+                                        </p>
+                                    </div>
+                                    <div class="product-imgs">
+                                        <img data-src="img/products/Endomotor.jpeg" alt="">
+                                        <p>
+                                            Endomotor <br>
+                                            ₹ 18000 & above brands available
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+
+                    
+        
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+                               
+                                <div class="product-img">
+                                    <a href="#"><img src="img/products/RVG sensor.jpeg" alt=""></a>
+                                    
+                                    <div class="product-tag sale-tag">
+                                        <a href="#">New</a>
+                                    </div>
+                                    <div class="product-meta d-flex">
+                                        <a href="https://m.facebook.com/outchem" class="wishlist-btn"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="add-to-cart-btn">Imaging</a>
+                                        <a href="tel:+91 8779938494" class="compare-btn"><i class="fa fa-phone"></i></a>
+                                    </div>
+                                </div>
+                              
+                                <div class="product-info mt-15 text-center">
+                                    <a href="#">
+                                        <p>Imaging</p>
+                                    </a>
+                                    <!-- <h6>$10.99</h6> -->
+                                </div>
+                            </div>
+                            <div class="btnContainer2">
+                                <button id="btnShowProducts2" onclick="showProducts2()">Show More</button>
+                                <button id="btnHideProducts2" onclick="hideProducts2()">Show Less</button>
+                            </div>
+                            <div id="products2">
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Loupe with LED.jpeg" alt="">
+                                    <p>
+                                        Loupe with LED <br>
+                                        ₹ 3500 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Wall Mount X-ray.jpeg" alt="">
+                                    <p>
+                                        Wall Mount X-ray <br>
+                                        ₹ 40000 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/new1.png" alt="">
+                                    <p>
+                                        Portable X-ray.jpg <br>
+                                        ₹ 60000 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/new.png" alt="">
+                                    <p>
+                                        Intraoral camera with screen <br>
+                                        ₹ 1000 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Intraoral camera.jpeg" alt="">
+                                    <p>
+                                        Intraoral camera with screen <br>
+                                        ₹ 1000 & above brands available
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+                               
+                                <div class="product-img">
+                                    <a href="#"><img src="img/products/newDental chair.jpeg" alt=""></a>
+                                    
+                                    <div class="product-tag sale-tag">
+                                        <a href="#">New</a>
+                                    </div>
+                                    <div class="product-meta d-flex">
+                                        <a href="https://m.facebook.com/outchem" class="wishlist-btn"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="add-to-cart-btn">Chairs</a>
+                                        <a href="tel:+91 8779938494" class="compare-btn"><i class="fa fa-phone"></i></a>
+                                    </div>
+                                </div>
+                              
+                                <div class="product-info mt-15 text-center">
+                                    <a href="#">
+                                        <p>Chairs</p>
+                                    </a>
+                                    <!-- <h6>$10.99</h6> -->
+                                </div>
+                            </div>
+                            <div class="btnContainer3">
+                                <button id="btnShowProducts3" onclick="showProducts3()">Show More</button>
+                                <button id="btnHideProducts3" onclick="hideProducts3()">Show Less</button>
+                            </div>
+                            <div id="products3">
+                                <div class="product-imgs">
+                                    <img data-src="img/products/newDental chair.jpeg" alt="">
+                                    <p>
+                                        Dental Chair <br>
+                                        ₹ 85000 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/newPortable Dental chair.jpeg" alt="">
+                                    <p>
+                                        Portable Dental Unit <br>
+                                        ₹ 48000 & above brands available
+                                    </p>
+                                </div>
+                               
+                            </div>
+                        </div>
+        
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
+                               
+                                <div class="product-img">
+                                    <a href="#"><img src="img/products/Scaller.jpeg" alt=""></a>
+                                    
+                                    <div class="product-tag sale-tag">
+                                        <a href="#">Hot</a>
+                                    </div>
+                                    <div class="product-meta d-flex">
+                                        <a href="https://m.facebook.com/outchem" class="wishlist-btn"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="add-to-cart-btn">Others</a>
+                                        <a href="tel:+91 8779938494" class="compare-btn"><i class="fa fa-phone"></i></a>
+                                    </div>
+                                </div>
+                              
+                                <div class="product-info mt-15 text-center">
+                                    <a href="#">
+                                        <p>Sterlization & Others </p>
+                                    </a>
+                                    <!-- <h6>₹ 10.99</h6> -->
+                                </div>
+                            </div>
+                            <div class="btnContainer4" style="margin-left: auto; margin-right: auto;">
+                                <button id="btnShowProducts4" onclick="showProducts4()">Show More</button>
+                                <button id="btnHideProducts4" onclick="hideProducts4()">Show Less</button>
+                            </div>
+                            <div id="products4">
+                                
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Micro Motor.jpeg" alt="">
+                                    <p>
+                                        Micro Motor <br>
+                                        ₹ 4500 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Physio dispenser1.jpeg" alt="">
+                                    <p>
+                                        Physio dispenser <br>
+                                        ₹ 60000 & above brands available
+                                    </p>
+                                </div>
+                                <div class="product-imgs">
+                                    <img data-src="img/products/Motorised Suction.jpeg" alt="">
+                                    <p>
+                                        Motorised Suction <br>
+                                        ₹ 1000 & above brands available
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        
+                         
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <!-- ##### Product Area End ##### -->
+
+
+     <!-- #### Registration Start #### -->
+     <div id="registration">
+        <!-- Button trigger modal -->
+        <div class="container">
+            <div class= "top-left" id="regText">
+                <h2>People say all doctor are curious<br>We have some curiously exciting offers up our sleeves,</h2>
+            </div>
+            <div class="centered regist">
+                <button type="button" class="btn btn-lg" id="regBtn" data-toggle="modal" data-target="#exampleModalCenter">Register Now</button>
+                <h2 style="color: white">To save the cat!! </h2>
+            </div>
+            <!-- <div class="bottom-right " id="regText">
+                <h2>To save A Cat !!</h2>
+            </div> -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h2 style="text-align: center; margin: auto; padding-top: 10px; padding-bottom: 10px;">REGISTRATION</h2>
+            </div>        
+            <div class="modal-body">
+                    <div id="regiform" class="container">
+                        <form name="contactForm" id="regForm" method="post" action="php/register.php" novalidate="novalidate">
+                            <div class="form-field">
+                                <input name="regName" type="text" id="contactName" placeholder="Your Name"  required="" aria-required="true" class="full-width">
+                                <input name="cname" type="text" id="cname" placeholder="clinic Name"  required="" aria-required="true" class="full-width">
+                                <input name="clinicNo" type="number" id="clinicNo" placeholder="clinic Number"  required="" aria-required="true" class="full-width">
+                                <input name="mobile" type="tel" id="mobile" placeholder="Mobile Number"  required="" aria-required="true" class="full-width">
+                                <input name="regEmail" type="email" id="regEmail" placeholder="Your Email" required="" aria-required="true" class="full-width">
+                                <input name="Qualification" type="text" id="Qualification" placeholder="Qualifiaction"  required="" aria-required="true" class="full-width">
+                                <input name="special" type="text" id="special" placeholder="Specialization"  required="" aria-required="true" class="full-width">
+                                <input name="experience" type="number" id="experience" placeholder="Year of Years of Experience"  required="" aria-required="true" class="full-width">
+                                <textarea name="regAddress" id="redAddress" placeholder="Your Address/Location" rows="5" cols="20" required="" aria-required="true" class="full-width"></textarea>
+                                <button class="full-width btn--primary">Submit</button>
+                                <div class="submit-loader">
+                                    <div class="text-loader">Sending...</div>
+                                    <div class="s-loader">
+                                        <div class="bounce1"></div>
+                                        <div class="bounce2"></div>
+                                        <div class="bounce3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        
+    </div>
+
+    <!-- #### Registration End #### -->
+
+
+
+
+    <!-- ##### Blog Area Start ##### -->
+    <section id="Event" class="alazea-blog-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Events</h2>
+                        <p>In Pursuit of continuous Medical Education.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <!-- Single Blog Post Area -->
+                <!-- <div class="col-12 col-md-6 col-lg-6">
+                    <div class="single-blog-post mb-100">
+                        <div class="post-thumbnail mb-30">
+                            <a><img src="img/bg-img/WDS website event image.jpg" alt=""></a>
+                                       
+                        </div>
+                        <div class="post-content">
+                            <a href="#" class="post-title">
+                                <h5>CPR & BLS training</h5>
+                            </a>
+                            <div class="post-meta">
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 14 Oct 2018</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Dr. Vineet Avadhani</a>
+                            </div>
+                            <p class="post-excerpt">Now mandatory to be CPR and BLS trained as per New Gazette, Govt. of India. <br> Training in accordance to latest AHA guidelines. <br> Use of AED (Automatic External Defibrillator) on Manikin. <br> All participants will get an Emergency Response quick reference guide and CPR algorithm handbook free. <br> Familiarisation with Medical Emergency Kit and how to Administer. <br> Course Fees Rs. 2000..    </p>
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+                <!-- new events -->
+
+               
+                <div class="masonry__brick newevent" data-aos="fade-up">
+                        <div class="item-folio">
+                                <div class="item-folio__thumb">
+                                        <a href="" class="thumb-link" title="Clinic Setup and Planning" data-size="1050x700">
+                                            <img src="img/bg-img/WDS website event image.jpg" 
+                                                 srcset="img/bg-img/WDS website event image.jpg" alt="">
+                                        </a>
+                                        
+                                 </div>   
+                            
+    
+                            <div class="item-folio__caption">
+                                <div class="container desc">
+                                        <p >Why to enroll in this interactive workshop :</p>
+                                        <ul><li>2 CDE Points will be granted to all the participants </li>
+                                        <li>Now Mandatory to be CPR and BLS trained* as per New Gazette, Govt. of INDIA,</li>
+                                        <li>Learn under AHA Certified BLS & ACLS Providers</li>
+                                        <li>Learn practical emergency response techniques</li> <li>Learn BLS & CPR & how to use AED (Automatic External Defibrillator) on Manikin- LIVE Demo</li> <li>Perform CPR  yourself and use  AED on individual manikin. </li> <li>Learn How to keep and maintain Emergency Kit in Clinic & how to use emergency medical device</li> <li>Each Participant receives a performance report and Certificate of Participation</li> <li>Training in accordance to latestAHA guidelines</li> <li>Simulation and real time like Scenario based learning on AHA approved Manikin</li> <li>Familiarise with Medical Emergency Kit And how to administer </li>
+                                        </ul><br>
+                                        <p>Special Offers: </p>
+                                        <ul>
+                                            <li>All participants get a Emergency Response quick reference guide and CPR algorithm Hanbook free </li>
+                                            <li>One Lucky Participant will get a Free Emergency kit </li>
+                                        </ul> <br>
+                                        <p>Registration Fee: </p>
+                                        <ul>
+                                            <li>IDA Member- Rs.1180 </li>
+                                            <li>Non Member- Rs.1770 </li>
+                                        </ul>
+            
+                                </div>
+                               
+                            </div>
+    
+                        </div>
+                        <div class="single-blog-post mb-100">
+                                <div class="post-content">
+                                        <a href="#" class="post-title">
+                                            <h5>World Dental Event</h5>
+                                        </a>
+                                        <div class="post-meta">
+                                            <a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 14 Oct 2018</a>
+                                            <a class="dash" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>11am to 2pm</a>
+                                        </div>
+                                        <div class="post-meta">
+                                                <a href="https://www.google.com/maps/place/Bandra+Kurla+Complex,+Bandra+East,+Mumbai,+Maharashtra/@19.0633914,72.8518561,15z/data=!3m1!4b1!4m8!1m2!2m1!1sWorld+Dental+Show,+BKC,+Mumbai!3m4!1s0x3be7c8df0b86ea1b:0xce7eea4b1bbdf296!8m2!3d19.0687893!4d72.8702647"  target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> World Dental Show, BKC, Mumbai  </a>
+                                               
+                                         </div>
+                                         <div class="post-meta">
+                                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>  Dr. Vineet Avadhani</a>
+                                        </div>
+                                        <div class="post-meta">
+                                                <a href="#"><i class="fa fa-money" aria-hidden="true"></i>IDA Member- Rs.1180  </a>
+                                        </div>
+                                        <div class="post-meta">
+                                                <a href="#"><i class="fa fa-money" aria-hidden="true"></i>Non Member- Rs.1770   </a>
+                                        </div>
+                                        
+                                 </div>
+                        </div>
+
+                </div>
+                
+                <!-- end new event -->
+                
+                <!-- new event -->
+                <!-- new events -->
+                
+                <div class="masonry__brick newevent" data-aos="fade-up">
+                        <div class="item-folio">
+                                <div class="item-folio__thumb">
+                                        <a href="" class="thumb-link" title="Clinic Setup and Planning" data-size="1050x700">
+                                            <img src="img/bg-img/event.png" 
+                                                 srcset="img/bg-img/event.png" alt="">
+                                        </a>
+                                        
+                                 </div>  
+                            
+                            
+    
+                            <div class="item-folio__caption">
+                                <div class="container desc">
+                                    <p>Why to enroll in this interactive workshop : </p> 
+                                    <ul>
+                                        <li>Certification of Completion of Training and Hands-on from Dept. of Critical Care Medicine, Wockhardt Hospital Vashi. </li>
+                                        <li>Now Mandatory to be CPR and BLS trained* as per New Gazette, Govt. of INDIA,</li>
+                                        <li>Learn under AHA Certified BLS & ACLS Providers</li>
+                                        <li>Learn practical emergency response techniques</li>
+                                        <li>Learn BLS & CPR & how to use AED (Automatic External Defibrillator) on Manikin- LIVE Demo</li>
+                                        <li>Perform CPR  yourself and use  AED on individual manikin. </li>
+                                        <li>Learn How to keep and maintain Emergency Kit in Clinic & how to use emergency medical device</li>
+                                        <li>Each Participant receives a performance report and Certificate of Participation</li>
+                                        <li>Training in accordance to latestAHA guidelines</li>
+                                        <li>Simulation and real time like Scenario based learning on AHA approved Manikin</li>
+                                        <li>Familiarise with Medical Emergency Kit And how to administer </li>
+                                        <li>Applied for CDE points </li>
+                                    </ul> <br>
+                                    <p>Special Offer:</p>
+                                    <ul>
+                                        <li>All participants will get an Emergency Response quick reference guide and CPR algorithm handbook free. </li>
+                                    </ul> <br>
+                                    <p>Course Fees: </p>
+                                    <ul>
+                                        <li>Rs.1000/- (Lecture + Hands on followed by lunch) </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="single-blog-post mb-100">
+                                <div class="post-content">
+                                        <a href="#" class="post-title">
+                                            <h5>Wockhardt event</h5>
+                                        </a>
+                                        <div class="post-meta">
+                                            <a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 06 Jan 2019</a>
+                                            <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 11am to 2pm </a>
+                                        </div>
+                                        <div class="post-meta">
+                                                <a href="https://www.google.com/maps/place/Sterling+Wockhardt+Hospital/@19.069931,72.9852603,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c6b67f73b3d7:0x6256f6239ebc9f09!8m2!3d19.069931!4d72.987449" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Sterling Wockhardt Hospital, Vashi, Navi Mumbai   </a>
+                                               
+                                         </div>
+                                         <div class="post-meta">
+                                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Dr. Vaijanti Bhavsar & Dr. Vineet Avadhani</a>
+                                        </div>
+                                        <div class="post-meta">
+                                                <a href="#"><i class="fa fa-money" aria-hidden="true"></i>Rs.1000/- (Lecture + Hands on followed by lunch)  </a>
+                                        </div>
+                                       
+                                 </div>
+                        </div>
+
+                </div> 
+               
+                <!-- end new event -->
+
+
+                <!-- Single Blog Post Area -->
+                <!-- <div class="col-12 col-md-6 col-lg-6">
+                    <div class="single-blog-post mb-100">
+                        <div class="post-thumbnail mb-30">
+                            <a href="#"><img src="img/bg-img/event.png" alt=""></a>
+                        </div>
+                        <div class="post-content">
+                            <a href="#" class="post-title">
+                                <h5>CPR & BLS training</h5>
+                            </a>
+                            <div class="post-meta">
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 06 Jan 2019</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Dr. Vaijanti Bhavsar & Dr. Vineet Avadhani</a>
+                            </div>
+                            <p class="post-excerpt"> Now mandatory to be CPR and BLS trained as per New Gazette, Govt. of India. <br> Training in accordance to latest AHA guidelines. <br> Use of AED (Automatic External Defibrillator) on Manikin. <br> All participants will get an Emergency Response quick reference guide and CPR algorithm handbook free.<br> Certification of Completion of Training and Hands-on from Dept. of Critical Care Medicine, Wockhardt Hospital Vashi. <br> Course Fees Rs. 1000..    </p>
+                        </div>
+                    </div>
+                </div> -->
+
+               
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Blog Area End ##### -->
+
+    <div class="rework">
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="" method="post" action="php/contact.php" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                    <input type="submit" class="full-width btn--primary">
+                        <!-- <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div> -->
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <a href="https://maps.app.goo.gl/fp7wp" target="_blank"><p>Shop No 54, Satara Plaza<br>
+                            Phase 2, 19D Vashi<br>
+                            Navi Mumbai, 400703</p></a>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            marketing@outchem.com<br>
+                            experience@outchem.com
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: (+91) 87799 38494<br>
+                            Mobile: (+91) 87799 41985<br>
+                            
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="https://m.facebook.com/outchem" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/outchem2017?s=08" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/outchem2017?r=nametag" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="tel:+91 879942985"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/fp7wp" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                        </li>
+                        
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+    
+    
+        <!-- footer
+        ================================================== -->
+        <footer>
+    
+            <div class="row footer-main">
+    
+                <div class="col-six tab-full left footer-desc">
+    
+                    <div class="footer-logo"></div>
+                    <p>We at Outchem promise you a dedicated Pharmaceutical outsourcing marketplace that will guarantee contractors who fulfill your needs. Outchem also eases the process of outsourcing the various allied services which form the backbone of the complex, crowded & crucial business of pharmaceuticals.</p>
+    
+                </div>
+    
+                <div class="col-six tab-full right footer-subscribe">
+    
+                    <h4>Loves To See You Smile</h4>
+                    <p class="footer-para">Outchem.com  is a one stop platform for the vast Pharmaceutical Sector, We believe in connecting sellers and buyers in India and around the world.</p>
+    
+                    <!-- <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="submit" name="subscribe" value="Subscribe">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                    </div> -->
+    
+                </div>
+    
+            </div> <!-- end footer-main -->
+    
+            <div class="row footer-bottom">
+    
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <p>© Copyright <a href="index.html" target="_blank">Outchem.com</a></p> 
+                        <span>developed by <a href="http://meinnovations.in/" target="_blank">Mangal Essakki Innovations</a></span>	
+                    </div>
+    
+                    <div class="go-top">
+                        <a id="scrollUp" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+    
+            </div> <!-- end footer-bottom -->
+    
+        </footer> <!-- end footer -->
+    
+    
+        <!-- photoswipe background
+        ================================================== -->
+        <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+    
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+    
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                        "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                        "Zoom in/out"></button>
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                    "Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div> 
+        
+        <!-- end photoSwipe background -->
+    </div>
+
+    <!-- preloader jquery -->
+    
+
+
+    <!-- firebase js -->
+    <!-- <script src="/js1/firebase.js"></script> -->
+
+          <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js1/jquery-3.2.1.min.js"></script>
+    <script src="js1/plugins.js"></script>
+    <script src="js1/main.js"></script>
+
+</body>
+</html>

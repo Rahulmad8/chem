@@ -1,0 +1,37 @@
+ /* Validation to check if name is inserted */
+    if (!isset($Errmsg)) {
+        if (!isset($_POST["name"])) {
+            $Errmsg = "7-
+            Gender field is required";
+            echo $Errmsg;
+        }
+    }
+
+    /* Email Validation */
+    if (!isset($Errmsg)) {
+        if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+            $Errmsg = "Invalid UserEmail";
+            echo $Errmsg;
+        }
+    }
+
+    /* Validation to check if subject is inserted */
+    if (!isset($Errmsg)) {
+        if (!isset($_POST["subject"])) {
+            $Errmsg = "subject field is required";
+            echo $Errmsg;
+        }
+    }
+
+    /* Validation to check if message is inserted */
+    if (!isset($Errmsg)) {
+        if (!isset($_POST["message"])) {
+            $Errmsg = "message field is required";
+            echo $Errmsg;
+        }
+    }
+
+
+
+
+    
